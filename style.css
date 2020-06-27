@@ -1,0 +1,41 @@
+body{
+	background-image:url(back_image.jpg);
+	background-size: cover;
+}
+h1{
+color: #DB2E29;
+text-align: center;
+border: 5px solid;
+}
+p{
+	font-family: 'Pacifico', cursive;
+	line-height: 30px;
+}
+h2{
+color:#21AF21;
+}
+li{
+list-style: none;
+display:inline-block;
+}
+img{
+	float:left;
+}
+.para1{
+	float:left;
+	display:inline-block;
+	padding:10px;
+	margin:10px;
+	border: 2px solid;
+	width:25%;
+
+}
+.para2{
+	float:left;
+	width:20%;
+
+}
+footer{
+	clear:both;
+	text-align: center;
+}

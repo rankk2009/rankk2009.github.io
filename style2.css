@@ -1,0 +1,25 @@
+.head{
+	color:pink;
+	font:fantasy;
+	border-bottom: 2px solid pink;
+	text-align: center;
+}
+.container{
+
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+img{
+	width:250px;
+	height:200px;
+	margin:10px;
+	padding:10px;
+	border:solid 2px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+	/*transform:rotate(10deg);*/
+	/*transform:translate(20px,20px);*/
+}
